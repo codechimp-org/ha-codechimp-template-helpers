@@ -2,7 +2,7 @@
 ![Version](https://img.shields.io/github/v/release/codechimp-org/ha-codechimp-template-helpers)
 # CodeChimp Template helpers
 
-This Template extension for Home Assistant contains various helper templates!
+This Template extension for Home Assistant contains various helper templates
 
 # Installation
 
