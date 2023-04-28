@@ -6,7 +6,8 @@ This Template extension for Home Assistant contains various helper templates
 
 # Installation
 
-Install this in HACS or download the `codechimp-template-helpers.jinja` from this repository and place the files into your `config\custom_templates` directory.
+Install this in HACS as a custom repository or download the `codechimp-template-helpers.jinja` from this repository and place the files into your `config\custom_templates` directory.
+Run the homeassistant.reload_custom_templates service call to load the file.
 
 # Macros
 
