@@ -1,0 +1,8 @@
+{%- macro pluralize(value, singular, plural, spacer=True) -%}
+{%- set numeric = value | float %}
+{%- if numeric != 1 -%}
+  {{- value -}} {%- if spacer -%} {{" "}} {%- endif -%} {{- plural -}}
+{%- else -%}
+  {{- value -}} {%- if spacer -%} {{" "}} {%- endif -%} {{- singular -}}
+{%- endif -%}
+{%- endmacro -%}
