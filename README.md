@@ -25,5 +25,5 @@ spacer| boolean | `True` | `True` | (Optional) Whether to add a spacer between t
 
 ```jinja
 {% from 'codechimp-template-helpers.jinja' import pluralize %}
-{{ pluralize('sensor.value', 'day', 'days') }}
+{{ pluralize( states('sensor.value'), 'day', 'days') }}
 ```
